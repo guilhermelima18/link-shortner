@@ -29,6 +29,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 1rem 0;
+    animation: var(--animationSliderY) 3s;
 
     span {
       background-color: #14384d;

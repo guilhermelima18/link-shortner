@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --animationSliderY: sliderY;
+}
+
 body {
   background-color: #132742;
   font-family: sans-serif;
@@ -15,4 +19,14 @@ a {
 
 button {
   cursor: pointer;
+}
+
+@keyframes sliderY {
+  from {
+    transform: translateY(90px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
